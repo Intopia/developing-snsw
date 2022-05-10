@@ -59,16 +59,6 @@
           </section>
 
           <section data-background="#fff">
-            <h4>Quick warmup: which is best?</h4>
-            <ol>
-              <li>Star Trek</li>
-              <li>Star Wars</li>
-              <li>Galaxy Quest</li>
-              <li>The Princess Bride</li>
-            </ol>
-          </section>
-
-          <section data-background="#fff">
             <h4>How will these sessions run?</h4>
             <ul>
               <li>Quick recap of video material</li>
@@ -85,10 +75,6 @@
           <section data-background="#fff">
             <h4>These sessions are for you</h4>
             <p>We can go as fast or slow as needed!</p>
-          </section>
-
-          <section data-background="#fff">
-            <p>We'll be using <b>CodePen</b> for the sessions. You don't need an account but it will allow you to fork the code.</p>
           </section>
         </section>
 
@@ -174,33 +160,81 @@
 
 
 
-        <section id="ex-using-aria-label">
+        <section id="quiz">
           <section data-background="#c60c30">
-            <h2>Exercise: Using <code class="white">aria-label</code></h2>
+            <h2>Quiz time</h2>
           </section>
 
           <section data-background="#fff">
-            <h4>Accessing the exercise:</h4>
-            <p><a href="https://codepen.io/intopia/pen/abEqMRZ" target="_blank">DEVELOPER EXERCISE: Using aria-label</a>.</p>
+            <p>When would you use the following elements:</p>
+            <ul>
+              <li><code>&lt;div&gt;</code></li>
+              <li><code>&lt;section&gt;</code></li>
+              <li><code>&lt;article&gt;</code></li>
+            </ul>
           </section>
-        </section>
-
-
 
 <!--  –––––––––––––––––––––––––
-******  SECTION ******
+SUB-SECTION
 ––––––––––––––––––––––––––  -->
 
-
-
-        <section id="ex-using-aria-labelledby">
-          <section data-background="#c60c30">
-            <h2>Exercise: Using <code class="white">aria-labelledby</code></h2>
+          <section data-background="#222">
+            <h3>The &lt;div&gt; element </h3>
           </section>
 
           <section data-background="#fff">
-            <h4>Accessing the exercise:</h4>
-            <p><a href="https://codepen.io/intopia/pen/zYpRbJv" target="_blank">DEVELOPER EXERCISE: Using aria-labelledby</a>.</p>
+            <p>The <code>&lt;div&gt;</code> element is a generic container that can be used anywhere within layouts, where there is no need for a specific <code>role</code>.</p>
+          </section>
+
+<!--  –––––––––––––––––––––––––
+SUB-SECTION
+––––––––––––––––––––––––––  -->
+
+          <section data-background="#222">
+            <h3>The &lt;section&gt; element </h3>
+          </section>
+
+          <section data-background="#fff">
+            <p>This element should only be used if the page region is <b>sufficiently important that users may want to navigate to it</b>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>Each <code>&lt;section&gt;</code> element should be identified, typically by <b><a href="https://www.w3.org/TR/html52/sections.html#the-section-element" target="_blank">including a heading that is a direct child element</a></b>.</p>
+          </section>
+
+          <section data-background="#222">
+<pre><code contenteditable="true">&lt;section&gt;
+  <span class="codeHighlight">&lt;h3&gt;Section heading&lt;/h3&gt;</span>
+&lt;/section&gt;</code></pre>
+          </section>
+
+          <section data-background="#fff">
+            <p>The W3C Validator will <b>present a warning message</b> for any section that does not contain a heading as a direct child element.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p><i><b>Warning</b>: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.</i></p>
+          </section>
+
+<!--  –––––––––––––––––––––––––
+SUB-SECTION
+––––––––––––––––––––––––––  -->
+
+          <section data-background="#222">
+            <h3>The &lt;article&gt; element </h3>
+          </section>
+
+          <section data-background="#fff">
+            <p>The <code>&lt;article&gt;</code> element for <b>self-contained compositions in a document</b>, which are intended to be reusable (e.g. syndication).</p>
+          </section>
+
+          <section data-background="#fff">
+            <p><b>Examples include</b>: blog posts, articles, product cards, user-submitted comments, or any other independent item of content.</p>
+          </section>
+
+          <section data-background="#222">
+<pre><code contenteditable="true">&lt;article&gt;
+&lt;/article&gt;</code></pre>
           </section>
         </section>
 
@@ -271,6 +305,44 @@
           <section data-background="#fff">
             <h4>Compare your layout with the finished result</h4>
             <p><a href="https://codepen.io/intopia/pen/mdpNZOo" target="_blank">DEVELOPER EXERCISE: Creating landmarks - finished</a></p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-using-aria-label">
+          <section data-background="#c60c30">
+            <h2>Exercise: Using <code class="white">aria-label</code></h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia/pen/abEqMRZ" target="_blank">DEVELOPER EXERCISE: Using aria-label</a>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-using-aria-labelledby">
+          <section data-background="#c60c30">
+            <h2>Exercise: Using <code class="white">aria-labelledby</code></h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia/pen/zYpRbJv" target="_blank">DEVELOPER EXERCISE: Using aria-labelledby</a>.</p>
           </section>
         </section>
 
