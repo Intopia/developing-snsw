@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Session 5: Custom components | Service NSW</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/intopia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'dist/theme/pdf.css' : 'dist/theme/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <div class="menu">
+          <a href="index.html">Home<span class="hidden"> - list of all slide decks</span></a> | <a href="#/">Start<span class="hidden"> of slide deck</span></a>
+        </div>
+
+        <section data-background="#c60c30">
+          <h1>Session 5</h1>
+          <span class="h5">Custom components</span>
+        </section>
+
+        <section data-background="#fff">
+          <div class="instructions">
+            <h3 class="instructions-heading">Slide instructions</h3>
+            <p><kbd>SPACEBAR</kbd> to <b>move forward</b> through slides.</p>
+            <p><kbd>SHIFT</kbd> &amp; <kbd>SPACEBAR</kbd> to <b>move backwards</b> through slides.</p>
+            <p><kbd>LEFT ARROW</kbd> &amp; <kbd>RIGHT ARROW</kbd> to <b>move through sections</b>.</p>
+            <p><kbd>ESC</kbd> to <b>see overview</b> and <kbd>ESC</kbd> again to exit.</p>
+            <p><kbd>F</kbd> to <b>enter presentation mode</b> and <kbd>ESC</kbd> to exit.</p>
+          </div>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="introduction">
+          <section data-background="#002664">
+            <h2>Introduction</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>How will these sessions run?</h4>
+            <ul>
+              <li>Quick recap of video material</li>
+              <li>Some activities</li>
+              <li>Discussion and review of current practices</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Questions during the session?</h4>
+            <p>Either use the "raise hand" icon or ask your questions directly in chat.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>These sessions are for you</h4>
+            <p>We can go as fast or slow as needed!</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="recap">
+          <section data-background="#002664">
+            <h2>Quick recap of video material</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Semantics</h4>
+            <ul class="font-sm">
+              <li>Non-semantic hooks</li>
+              <li>Meaningful sequencing</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>CSS</h4>
+            <ul class="font-sm">
+              <li>Responsive / flexible</li>
+              <li>Target size</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Scripting</h4>
+            <ul class="font-sm">
+              <li>Click events</li>
+              <li>Motion vs single point</li>
+              <li>Keyboard shortcuts</li>
+              <li>Manage focus</li>
+              <li>Avoid autoplay</li>
+              <li>Provide controls</li>
+              <li>Hover and focus events</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Testing</h4>
+            <ul class="font-sm">
+              <li>View in a browser</li>
+              <li>Make sure it has a role</li>
+              <li>Keyboard testing</li>
+              <li>Screen reader testing</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Components</h4>
+            <ul class="font-sm">
+              <li>Tooltips</li>
+              <li>Autosuggest</li>
+            </ul>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-programmatically-associating-labels-and-form-controls">
+          <section data-background="#c60c30">
+            <h2>Exercise: Questions to ask for accessible chat</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="hhttps://www.figma.com/file/2ANgs1ihJblQ1LrSgU6jiR/SNSW-Developer-training---identifying-image-types?node-id=0%3A1" target="_blank">FigJam board</a>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-making-a-radio-group-accessible">
+          <section data-background="#c60c30">
+            <h2>Exercise: Create an accessible chat</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <ul>
+              <li><a href="https://codepen.io/intopia/pen/LYQZdyq" target="_blank">DEVELOPER EXERCISE: Create an accessible chat - start</a></li>
+              <li><a href="https://codepen.io/intopia/pen/RwQRMgb" target="_blank">DEVELOPER EXERCISE: Create an accessible chat - finish</a></li>
+            </ul>
+            <p>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="discussion">        
+          <section data-background="#002664">
+            <h2>Discussion and review of current practices</h2>
+          </section>
+
+          <section data-background="#fff">
+            <ol>
+              <li>Any questions about today's topic?</li>
+              <li>Anything we have discussed today that could <b>change in your current work practices</b>?</li>
+            </ol>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'none',
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealNotes ]
+      });
+    </script>
+
+  </body>
+</html>
