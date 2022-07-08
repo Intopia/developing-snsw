@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Session 2: Structure and navigation | Service NSW</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/intopia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'dist/theme/pdf.css' : 'dist/theme/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <div class="menu">
+          <a href="index.html">Home<span class="hidden"> - list of all slide decks</span></a> | <a href="#/">Start<span class="hidden"> of slide deck</span></a>
+        </div>
+
+        <section data-background="#c60c30">
+          <h1>Session 2</h1>
+          <span class="h5">Structure and navigation</span>
+        </section>
+
+        <section data-background="#fff">
+          <div class="instructions">
+            <h3 class="instructions-heading">Slide instructions</h3>
+            <p><kbd>SPACEBAR</kbd> to <b>move forward</b> through slides.</p>
+            <p><kbd>SHIFT</kbd> &amp; <kbd>SPACEBAR</kbd> to <b>move backwards</b> through slides.</p>
+            <p><kbd>LEFT ARROW</kbd> &amp; <kbd>RIGHT ARROW</kbd> to <b>move through sections</b>.</p>
+            <p><kbd>ESC</kbd> to <b>see overview</b> and <kbd>ESC</kbd> again to exit.</p>
+            <p><kbd>F</kbd> to <b>enter presentation mode</b> and <kbd>ESC</kbd> to exit.</p>
+          </div>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="introduction">
+          <section data-background="#002664">
+            <h2>Introduction</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>How will these sessions run?</h4>
+            <ul>
+              <li>Quick recap of video material</li>
+              <li>Some activities</li>
+              <li>Discussion and review of current practices</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Questions during the session?</h4>
+            <p>Either use the "raise hand" icon or ask your questions directly in chat.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>These sessions are for you</h4>
+            <p>We can go as fast or slow as needed!</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="recap">
+          <section data-background="#002664">
+            <h2>Quick recap of video material</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Page regions</h4>
+            <ul class="font-xs">
+              <li><code>&lt;article&gt;</code></li>
+              <li><code>&lt;section&gt;</code></li>
+              <li><code>&lt;main&gt;</code></li>
+              <li><code>&lt;nav&gt;</code></li>
+              <li><code>&lt;header&gt;</code></li>
+              <li><code>&lt;footer&gt;</code></li>
+              <li><code>&lt;aside&gt;</code></li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Content</h4>
+            <ul class="font-sm">
+              <li>Page language</li>
+              <li>Page title</li>
+              <li>Headings</li>
+              <li>Lists</li>
+              <li>Tables</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Menus</h4>
+            <ul class="font-sm">
+              <li>Menu markup</li>
+              <li>Menu styling</li>
+              <li>Flyout menus</li>
+              <li>Hidden menus</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Other navigation</h4>
+            <ul class="font-sm">
+              <li>Skip links</li>
+              <li>In-page navigation</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Focus management</h4>
+            <ul class="font-sm">
+              <li>Modals</li>
+              <li>Single page apps</li>
+            </ul>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Summary</h4>
+            <ul class="font-sm">
+              <li>Use landmark elements for page regions </li>
+              <li>Use semantic HTML for content</li>
+              <li>Provide state information for menus</li>
+              <li>Check how keyboard focus works with menus and other navigation</li>
+            </ul>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="quiz">
+          <section data-background="#c60c30">
+            <h2>Quiz time</h2>
+          </section>
+
+          <section data-background="#fff">
+            <p>When would you use the following elements:</p>
+            <ul>
+              <li><code>&lt;div&gt;</code></li>
+              <li><code>&lt;section&gt;</code></li>
+              <li><code>&lt;article&gt;</code></li>
+            </ul>
+          </section>
+
+<!--  –––––––––––––––––––––––––
+SUB-SECTION
+––––––––––––––––––––––––––  -->
+
+          <section data-background="#222">
+            <h3>The &lt;div&gt; element </h3>
+          </section>
+
+          <section data-background="#fff">
+            <p>The <code>&lt;div&gt;</code> element is a generic container that can be used anywhere within layouts, where there is no need for a specific <code>role</code>.</p>
+          </section>
+
+<!--  –––––––––––––––––––––––––
+SUB-SECTION
+––––––––––––––––––––––––––  -->
+
+          <section data-background="#222">
+            <h3>The &lt;section&gt; element </h3>
+          </section>
+
+          <section data-background="#fff">
+            <p>This element should only be used if the page region is <b>sufficiently important that users may want to navigate to it</b>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>Each <code>&lt;section&gt;</code> element should be identified, typically by <b><a href="https://www.w3.org/TR/html52/sections.html#the-section-element" target="_blank">including a heading that is a direct child element</a></b>.</p>
+          </section>
+
+          <section data-background="#222">
+<pre><code contenteditable="true">&lt;section&gt;
+  <span class="codeHighlight">&lt;h3&gt;Section heading&lt;/h3&gt;</span>
+&lt;/section&gt;</code></pre>
+          </section>
+
+          <section data-background="#fff">
+            <p>The W3C Validator will <b>present a warning message</b> for any section that does not contain a heading as a direct child element.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p><i><b>Warning</b>: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.</i></p>
+          </section>
+
+<!--  –––––––––––––––––––––––––
+SUB-SECTION
+––––––––––––––––––––––––––  -->
+
+          <section data-background="#222">
+            <h3>The &lt;article&gt; element </h3>
+          </section>
+
+          <section data-background="#fff">
+            <p>The <code>&lt;article&gt;</code> element is for <b>self-contained compositions in a document</b>, which are intended to be reusable (e.g. syndication).</p>
+          </section>
+
+          <section data-background="#fff">
+            <p><b>Examples include</b>: blog posts, articles, product cards, user-submitted comments, or any other independent item of content.</p>
+          </section>
+
+          <section data-background="#222">
+<pre><code contenteditable="true">&lt;article&gt;
+&lt;/article&gt;</code></pre>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-creating-landmarks">
+          <section data-background="#c60c30">
+            <h2>Exercise: Creating landmarks</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/gOeaGoo" target="_blank">DEVELOPER EXERCISE: Creating landmarks - start</a></p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 1: Add the following landmarks</h4>
+            <ol class="font-sm">
+              <li><code>&lt;header&gt;</code>.</li>
+              <li><code>&lt;nav&gt;</code>.</li>
+              <li><code>&lt;main&gt;</code>.</li>
+              <li><code>&lt;aside&gt;</code>.</li>
+              <li><code>&lt;footer&gt;</code>.</li>
+            </ol>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 2: Inspect</h4>
+            <p>Inspect each of these landmarks in the accessibility tree to see their roles.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 3: Another header or footer</h4>
+            <p>What would happen if we added a new <code>&lt;header&gt;</code> or <code>&lt;footer&gt;</code> inside the <code>&lt;main&gt;</code> landmark?</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 4: Inspect</h4>
+            <p>Would these new <code>&lt;header&gt;</code> or <code>&lt;footer&gt;</code> elements be defined as landmarks in the accessibility tree?</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 5: Add one or more of the following</h4>
+            <p>Add one or more <code>&lt;section&gt;</code> elements to the layout.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 6: Add labels</h4>
+            <p>If we have more than one <code>&lt;nav&gt;</code> landmark, should we provide each with a unique label?</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 7: Improve the semantics</h4>
+            <p>There is some content under the heading <i>"Scientific classification"</i>. Could this be marked up in a more semantic way?</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Step 8: Flag the current page</h4>
+            <p>Could we apply <code>aria-current="page"</code> to any specific <code>&lt;a&gt;</code> element within the layout?</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Compare your layout with the finished result</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/OJvyxzv" target="_blank">DEVELOPER EXERCISE: Creating landmarks - finished</a></p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-using-aria-label">
+          <section data-background="#c60c30">
+            <h2>Exercise: Using <code class="white">aria-label</code></h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/VwXvMMP" target="_blank">DEVELOPER EXERCISE: Using aria-label - start</a>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Reviewing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/vYRNzpY" target="_blank">DEVELOPER EXERCISE: Using aria-label - finished</a>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-using-aria-labelledby">
+          <section data-background="#c60c30">
+            <h2>Exercise: Using <code class="white">aria-labelledby</code></h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/dymYVVO" target="_blank">DEVELOPER EXERCISE: Using aria-labelledby - start</a>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Reviewing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/XWEmPbZ" target="_blank">DEVELOPER EXERCISE: Using aria-labelledby - finished</a>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-adding-accessible-names">
+          <section data-background="#c60c30">
+            <h2>Exercise: Adding accessible names</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/oNqjGpY" target="_blank">DEVELOPER EXERCISE: Adding accessible names - start</a>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Reviewing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/WNzQgKE" target="_blank">DEVELOPER EXERCISE: Adding accessible names - finished</a>.</p>
+          </section>
+        </section>
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="ex-adding-accessible-descriptions">        
+          <section data-background="#c60c30">
+            <h2>Exercise: Adding accessible descriptions</h2>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Accessing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/VwXvMyp" target="_blank">DEVELOPER EXERCISE: Adding accessible descriptions - start</a>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <h4>Reviewing the exercise:</h4>
+            <p><a href="https://codepen.io/intopia-training/pen/NWYGLov" target="_blank">DEVELOPER EXERCISE: Adding accessible descriptions - finished</a>.</p>
+          </section>
+        </section>
+
+
+
+
+<!--  –––––––––––––––––––––––––
+******  SECTION ******
+––––––––––––––––––––––––––  -->
+
+
+
+        <section id="discussion">        
+          <section data-background="#002664">
+            <h2>Discussion and review of current practices</h2>
+          </section>
+
+          <section data-background="#fff">
+            <ol>
+              <li>Any questions about today's topic?</li>
+              <li>Anything we have discussed today that could <b>change in your current work practices</b>?</li>
+            </ol>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'none',
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealNotes ]
+      });
+    </script>
+
+  </body>
+</html>
