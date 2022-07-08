@@ -7,13 +7,13 @@ body {
   padding: 0;
   color: #222;
   background: #f2f2f2;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
   font-size: 2em;
 }
 
 h1,
 h2 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
 }
 
 h1,
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 0.5em;
+  margin: 0 0 .5em;
   font-weight: 900;
   line-height: 1.2;
   text-shadow: none;
@@ -40,20 +40,20 @@ h1 {
 h2 {
   font-weight: 900;
   font-size: 1.5em;
-  margin: 0 0 0.5em;
+  margin: 0 0 .5em;
 }
 
 h2 + h3 {
-  margin: 1.2em 0 0.3em;
+  margin: 1.2em 0 .3em;
 }
 
 h3 {
   font-size: 1.1em;
-  margin: 2em 0 0.3em;
+  margin: 2em 0 .3em;
 }
 
 p {
-  margin: 0 0 0.3em;
+  margin: 0 0 .3em;
   line-height: 1.5;
 }
 
@@ -64,7 +64,7 @@ ul {
 
 ul li {
   padding: 0;
-  margin: 0 0 0.5em;
+  margin: 0 0 .5em;
 }
 
 hr {
@@ -77,10 +77,11 @@ hr {
 details {
   padding: 0;
   margin: 0;
+  font-size: .8em;
 }
 
 details summary {
-  padding: 0.3em 0.3em 0.3em 0;
+  padding: .3em .3em .3em 0;
   margin: 0;
   cursor: pointer;
   color: #000;
@@ -100,12 +101,12 @@ code {
 }
 
 kbd {
-  border: 0.03em solid #ccc;
-  border-radius: 0.2em;
-  padding: 0.2em 0.2em 0.1em;
+  border: .03em solid #ccc;
+  border-radius: .2em;
+  padding: .2em .2em .1em;
   color: #555;
   background-image: linear-gradient(#fff, #eee);
-  box-shadow: 0.05em 0.05em 0.1em #aaa;
+  box-shadow: .05em .05em .1em #aaa;
   font-family: consolas, courier, monospace;
 }
 
@@ -151,8 +152,9 @@ details a:hover {
 /* ---------------------
 content
 -----------------------*/
+
 .main {
-  max-width: 38em;
+  max-width: 40em;
   margin: 0 auto;
 }
 
@@ -164,7 +166,7 @@ content
 
 .repo {
   float: right;
-  font-size: 0.8em;
+  font-size: .8em;
 }
 
 .branding {
@@ -176,17 +178,18 @@ content
 }
 
 .exercise {
-  background: rgba(255, 0, 0, 0.2);
+  background: rgba(255, 0, 0, .2);
 }
 
 details a.exercise:hover {
   color: #000;
-  background: rgba(255, 0, 0, 0.2) !important;
+  background: rgba(255, 0, 0, .2) !important;
 }
 
 /* ---------------------
 small screen
 -----------------------*/
+
 @media (max-width: 600px) {
   body {
     font-size: 1em;
